@@ -23,7 +23,9 @@ class TransportController extends AbstractController
          //"Thetford",
          //"FortSterling"
         ];
-    const  WAY = ['Lymhurst to Caerleon', 'Caerleon to Lymhurst', 'Lymhurst to Black Market'];   
+    const  WAY = ['Lymhurst to Caerleon', 'Caerleon to Lymhurst', 'Lymhurst to Black Market'];
+    
+    // 'nom item => tier minimal + nom item dans les données du jeu'
     const LISTFOOD = [
         'sandwich' => '4sandwich',
         'sandwich ava' => '4sandwich avalon',

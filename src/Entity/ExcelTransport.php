@@ -38,9 +38,9 @@ class ExcelTransport
         $this->workSheet->getColumnDimension('G')->setWidth(9);
         $this->workSheet->setCellValue('H1','benef/Kg');
         $this->workSheet->getColumnDimension('H')->setWidth(9);
-        $this->workSheet->setCellValue('I1','prix_achat_arrache');
+        $this->workSheet->setCellValue('I1','prix_achat_direct');
         $this->workSheet->getColumnDimension('I')->setWidth(17);
-        $this->workSheet->setCellValue('J1','prix_vente_arrache');
+        $this->workSheet->setCellValue('J1','prix_vente_direct');
         $this->workSheet->getColumnDimension('J')->setWidth(17);
     }
 
